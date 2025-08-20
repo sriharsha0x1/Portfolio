@@ -14,7 +14,8 @@ export const HeroSection=()=>{
                         
                     </h1>
                     <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                           I'm a passionate computer science student and open-source contributor with experience in full-stack development and problem-solving. Skilled in C++, JavaScript, React, Node.js, and MongoDB, I enjoy building impactful projects and contributing to the tech community. Currently pursuing my B.Tech in Computer Science (Cyber Security) at CVR College of Engineering, I aim to create secure and scalable solutions that make a difference!
+                          A computer science student and open-source contributor passionate about problem-solving and full-stack development.
+                          I love building secure and scalable solutions.
                     </p>
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                         <a href="#projects" className="cosmic-button">View Projects </a>
