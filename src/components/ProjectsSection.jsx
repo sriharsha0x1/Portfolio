@@ -232,9 +232,9 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
+          {projects.map((project,key) => (
             <div
-              key={project.id}
+              key={key}
               className="group bg-card rounded-lg p-6 shadow-xs card-hover flex flex-col justify-between"
             >
               <div>
