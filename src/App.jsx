@@ -1,20 +1,20 @@
-
-import {  Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { NotFound } from "./pages/Notfound";
+import { NotFound } from "./pages/NotFound";
+import { Toaster } from "@/components/ui/toaster";
 
 function App() {
   return (
     <>
-     <BrowserRouter>
+      <Toaster />
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-     </BrowserRouter>
-     
+      </BrowserRouter>
     </>
   );
 }
 
-export default App
+export default App;
